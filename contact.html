@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang =eng>
+<head>
+  <title>Origin Makerspace</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+</head>
+<body>
+  <div class="container"> <!-- start container-->
+    <h1 class="hidden">Origin Makerspace</h1>
+    <header class="mainHeader"><!-- start header-->
+      <div class="logoHeader ">
+        <img src="images/logo.svg" alt="Origin Makerspace logo" width="215" height="74" id="logo">
+      </div>
+      <nav class="mainNav">
+        <h2 class="hidden">Main Navigation</h2>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li class="selected"><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header><!-- close header-->
+    <!--___________________________________________________________________________________________________________________________-->
+   <main>
+        <section id="mainContact"> <!--start mainGallery-->
+                    <h2>Contact Us</h2>
+          <section id="contactArea"><!--start contactArea-->
+                <h2 class="hidden">Contact form</h2>
+                <p id="contactText">For more information about our equipment and services please use the form below.
+            </p> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                    
+                    <label for="human">What is 5 + 4?</label>
+                    <input type="text" required id="human" size="30" placeholder="What is 5 + 4?">
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+          </section><!--end contactArea-->  
+            
+            <section id="mapArea"><!--start mapArea-->
+              <h3>Visit Us</h3>
+                <ul>
+                  <li>50 Wellington St. </li>
+                  <li>St Thomas ONT </li>
+                  <li>Phone: 1-800-ORIGIN</li>
+                  <li>Fax: 1-800-ORIGINMAKE</li>
+                </ul>    
+               <div style="width: 100%"><iframe  allowfullscreen width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=50%20Wellington%20St.%20%20St%20Thomas%20ONT+(Origin%20Makerspace)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">find my coordinates</a></iframe></div><br />
+            </section><!--end mapArea-->      
+        </section><!--end mainContact-->
+    </main>
+    
+<!-- _______________________________________________________________________________________________________________________________-->
+<footer class="mainFooter">
+      <div class="LogoNav">
+        <div class="logoFooter">
+          <img src="images/logo.svg" alt="Origin Makerspace" width="130" height="43" id="logoFooter">
+        </div>
+        <nav class="footerNav">
+          <h2 class="hidden">Footer navigation</h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                  <li><a href="#">PACKAGES</a></li>
+                  <li><a href="gallery.html">GALLERY</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+        </nav>
+      </div> 
+
+      <div class="socialMedia">
+        <h2 class="hidden">Social Media</h2>
+        <ul id="iconNav">
+            <li id="facebook">
+              <a href="http://www.facebook.com">
+                <img src="images/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li id="twitter">
+              <a href="http://www.twitter.com">
+                <img src="images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li id="youtube">
+              <a href="http://www.youtube.com">
+                <img src="images/youtube.svg" alt="youtube">
+              </a>
+           </li>
+        </ul>
+      </div>    
+    </footer>
+  </div> <!-- close container-->
+</body>
+</html>
