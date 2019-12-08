@@ -21,8 +21,7 @@ padding: 0;
 body {
 
   font-family: Helvetica, Arial, sans-sarif;
-  background-color: #cccccc;
-  background-image: url("background.jpg");
+  background: #cccccc url(images/background.jpg) no-repeat fixed;
 }
 
 
@@ -62,6 +61,10 @@ body {
 
 }
 
+#logo
+{float: left;}
+
+
 .mainNav {
   width: 500px;
   height: 100px;
@@ -100,12 +103,57 @@ body {
 /*-- Close Header --*/
 
 
+/*-- Start Index --*/
+
+.body1 {
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.resources {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resources p {
+  margin-top: 20px;
+  line-height: 22px;
+  color: #666;
+  font-size: 16px;
+}
 
 
+.made {
+  color: white;
+  width: 300px;
+}
+
+.resBtn {
+  display: block;
+  width: 100px;
+  padding: 15px;
+  color: #fff;
+  background-color: #61a3c1;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.resBtn:hover {
+  background-color: #3f6e84;
+}
 
 
+/*-- Close Index --*/
 
-/*-- Contact Us Start --*/
+
+/*-- Contact Start --*/
 
 /*-- Contact Page --*/
 
