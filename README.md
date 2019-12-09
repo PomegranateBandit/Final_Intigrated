@@ -8,3 +8,5 @@ This site will provide contact to staff (so far just myself (Josh Taylor)) and h
 
 Also the site is a place where the comunity can share their creations, to inspire, and gain insperation 
 for new projects.
+
+Background from http://www.heropatterns.com/
