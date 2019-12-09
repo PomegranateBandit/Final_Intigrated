@@ -31,7 +31,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 980px;
+  width: 80%;
   background-color: #fff;
 
 }
@@ -68,7 +68,7 @@ body {
 .mainNav {
   width: 500px;
   height: 100px;
-  margin-top: 102px;
+  margin-top: 20px;
   margin-left: auto;
 
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .mainNav ul li a {
-  color: #2073a8;
+  color: #399e29;
   padding: 5px;
 }
 
@@ -106,10 +106,19 @@ body {
 /*-- Start Index --*/
 
 .body1 {
+  margin-left: 150px;
   display: flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-around;
 flex-wrap: wrap;
+}
+
+.body1 h3 {
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #db5353;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
 }
 
 .resources {
@@ -125,12 +134,23 @@ flex-wrap: wrap;
   line-height: 22px;
   color: #666;
   font-size: 16px;
+
 }
 
+.title {
+    font-size: 30px;
+  color: #ffffff;
+  background-color: #db5353;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  
+}
 
 .made {
   color: white;
   width: 300px;
+  margin: 0px 10px 0px 10px;
+  align-items: center;
 }
 
 .resBtn {
@@ -150,7 +170,25 @@ flex-wrap: wrap;
 }
 
 
+.rightpic
+{
+    float: right;
+    margin-right: 130px;
+}
+
 /*-- Close Index --*/
+
+
+/*-- About Start --*/
+
+.aboutbody {
+  margin-left: 150px;
+  margin-right: 150px;
+
+
+}
+
+/*-- Close About --*/
 
 
 /*-- Contact Us Start --*/
@@ -168,8 +206,8 @@ flex-wrap: wrap;
 
 #mainContact h2 {
   font-size: 30px;
-  color: #2073a8;
-  background-color: #ddeff7;
+  color: #ffffff;
+  background-color: #db5353;
   margin-bottom: 40px;
   padding: 8px 0px 8px 5px;
   width: 940px;
@@ -227,7 +265,7 @@ input, textarea  {
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #2073a8;
+  background-color: #db5353;
   font-size: 14px;
   border: 1px solid #003471;
 }
@@ -257,7 +295,7 @@ input, textarea  {
   justify-content: flex-start;
   margin-top: 20px;
   padding: 0 20px;
-  background-color: #ccc;
+  background-color: #858fed;
   height: 125px;
   background: url(../images/footer_bg.jpg) repeat-x;
 }
